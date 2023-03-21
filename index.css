@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding:0;
+    height: 100vh;
+}
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+header{
+    margin-bottom: 40px;
+}
+
+#taskform{
+    margin-bottom: 40px;
+}
+
+#taskInput {
+    width: 60%;
+    padding: 0.5rem;
+    margin: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+
+#taskList {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+#taskList li{
+    margin-bottom:20px;
+    font-size: 25px;
+    border-bottom: 1px solid grey;
+
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+button{
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.addTask{
+    background-color: green;
+}
